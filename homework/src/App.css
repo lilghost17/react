@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction:column;
+  width: 280px;
+  border: 1px solid red;
+  align-items: center;
+  background-color: grey;
+  color: goldenrod;
+}
+.card-title {
+  padding: 0;
+  margin: 4px;
+  font-size: 30px
+}
+.img-box {
+  height: 500spx;
+  width: 100%;
+}
+
+.img-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-list {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding: 30px;
+}
